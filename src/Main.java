@@ -7,6 +7,5 @@ public class Main {
 //        adjust which class and method the solution calls:
 
 //        various ways of reading the solutions:
-
     }
 }
