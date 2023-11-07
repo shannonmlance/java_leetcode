@@ -1,7 +1,5 @@
 package main.java.com.shannonmlance.definitionHelperClasses;
 
-import java.util.ArrayList;
-
 public class LinkedListCustom {
     ListNode head;
     LinkedListCustom() {}

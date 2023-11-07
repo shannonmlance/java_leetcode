@@ -37,7 +37,7 @@ Constraints:
             if (i % 5 == 0) {
                 s += "Buzz";
             }
-            if (s == "") {
+            if (s.equals("")) {
                 s = String.valueOf(i);
             }
             solution.add(i - 1, s);
@@ -56,7 +56,7 @@ Constraints:
             if (i % 5 == 0) {
                 s += "Buzz";
             }
-            if (s == "") {
+            if (s.equals("")) {
                 s = String.valueOf(i);
             }
             solution.add(i - 1, s);

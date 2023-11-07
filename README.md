@@ -1,6 +1,6 @@
 Order of "cards":
 
-- [x] The Leetcode Beginner's Guide
+- [x] The LeetCode Beginner's Guide
 - [ ] Arrays 101
 - [ ] Array and String
 - [ ] Linked List
