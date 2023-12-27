@@ -16,9 +16,11 @@ public class LoopThroughSolution {
 
     public void loop() {
         if (this.intSolution != null) {
-            for (int s : this.intSolution) {
-                System.out.println(s);
+            for (int i = 0; i < this.intSolution.length - 1; i++) {
+                System.out.print(this.intSolution[i]);
+                System.out.print(", ");
             }
+            System.out.println(this.intSolution[this.intSolution.length - 1]);
         } else if (this.objectSolution != null) {
             for (Object s : this.objectSolution) {
                 System.out.println(s);
